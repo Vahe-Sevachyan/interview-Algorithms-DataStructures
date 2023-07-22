@@ -7,7 +7,7 @@ function checkWhiteSpace(str: string) {
   }
 }
 
-checkWhiteSpace("i have white space");
+checkWhiteSpace("    whitespace    ");
 
 //||
 
