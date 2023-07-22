@@ -18,4 +18,4 @@ function findWords(str) {
   console.log(newStr);
 }
 
-findWords("new words");
+findWords("new words old");
