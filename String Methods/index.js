@@ -19,3 +19,26 @@ function findWords(str) {
 }
 
 findWords("new words old");
+
+// Whitespace Challenge
+//option 1
+
+function checkWhiteSpace() {
+  const trimmedStr = str.trim();
+  if (trimmedStr.length !== str.length) {
+    return true;
+  }
+  false;
+}
+checkWhiteSpace(" i have white space");
+
+checkWhiteSpace("    whitespace    ");
+
+console.log(checkWhiteSpace("i have white space"));
+
+// option 2
+
+function hasWhiteSpace() {
+  return str.indexOf(" ") !== -1;
+}
+console.log(hasWhiteSpace("  i-have_whiteSpace    "));
