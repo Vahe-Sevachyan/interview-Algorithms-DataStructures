@@ -12,5 +12,3 @@ function outerFunc(param1) {
   innerFunc("param one");
 }
 outerFunc("param two");
-
-/
