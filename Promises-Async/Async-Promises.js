@@ -20,3 +20,6 @@ function onError(errorCode) {
 }
 
 newFunc1().then(newFunc2).then(onSuccess).catch(onError);
+// practice practice practice
+// practice practice practice
+// practice practice practice
