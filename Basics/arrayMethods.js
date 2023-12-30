@@ -7,3 +7,7 @@ const doubledNumbers = numbers.map((num) => {
 const evenNumbers = numbers.filter((num) => {
   return num % 2 === 2;
 });
+//reduce method
+const sum = numbers.reduce((total, num) => {
+  return total + num;
+}, 0);
