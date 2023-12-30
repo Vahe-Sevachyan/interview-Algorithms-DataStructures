@@ -4,7 +4,6 @@ const doubledNumbers = numbers.map((num) => {
   return num * 2;
 });
 //filter method
-
 const evenNumbers = numbers.filter((num) => {
   return num % 2 === 2;
 });
