@@ -22,3 +22,9 @@ numbers.forEach((num) => {
 const foundNumber = numbers.find((num) => {
   return num > 2;
 });
+
+//some method
+
+const hasEvenNumber = numbers.some((num) => {
+  return num > 5;
+});
