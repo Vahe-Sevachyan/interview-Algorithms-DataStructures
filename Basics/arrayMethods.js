@@ -11,3 +11,9 @@ const evenNumbers = numbers.filter((num) => {
 const sum = numbers.reduce((total, num) => {
   return total + num;
 }, 0);
+
+// forEach method
+
+numbers.forEach((num) => {
+  console.log(num * 2);
+});
