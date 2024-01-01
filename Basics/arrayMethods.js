@@ -17,3 +17,8 @@ const sum = numbers.reduce((total, num) => {
 numbers.forEach((num) => {
   console.log(num * 2);
 });
+
+// find method
+const foundNumber = numbers.find((num) => {
+  return num > 2;
+});
