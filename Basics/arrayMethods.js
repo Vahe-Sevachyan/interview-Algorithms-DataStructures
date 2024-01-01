@@ -28,3 +28,9 @@ const foundNumber = numbers.find((num) => {
 const hasEvenNumber = numbers.some((num) => {
   return num > 5;
 });
+
+//every
+
+const allNumsGreaterThanZero = numbers.some((num) => {
+  return num > 0;
+});
