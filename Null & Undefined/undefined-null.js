@@ -17,4 +17,4 @@ console.log(n === z); // false (the triple equals checks value type )
 //summary
 
 //a variable not assigned a value is 'undefined'
-let x; // undefined
+let b; // undefined
