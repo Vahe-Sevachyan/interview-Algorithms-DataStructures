@@ -19,7 +19,7 @@ function addValue(randomNum) {
 addValue(30);
 
 //here you do not have access to the 'secondNum' variable because it is scoped inside the 'addValue' function
-// however from inside the addValue function you have access to the 'num' variable on line 1 because it is on the global scope
+//however from inside the addValue function you have access to the 'firstNum' variable on line 1 because it is on the global scope
 
-const combinedNum = firstNum + multipliedNumber; //this will out to an error because the secondNum variable is only available inside the addValue function
-console.log(combinedNum);
+const combinedNum = firstNum + multipliedNumber;
+console.log(combinedNum); //this will out to an error because the multipliedNumber variable is only available inside the addValue function
