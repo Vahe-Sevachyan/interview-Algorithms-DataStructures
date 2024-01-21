@@ -18,3 +18,20 @@ function AlphabeticalOrder(str) {
 
 console.log(AlphabeticalOrder("hello"));
 // result "ehllo"
+
+3; // Function that removes all odd number(s) in an array and returns a new array that contains even numbers only
+function evenOnly(arr) {
+  let result = arr.filter((arr) => arr % 2 === 0);
+  return result;
+}
+
+console.log(evenOnly([1, 2, 3, 4, 5, 6]));
+// result [ 2, 4, 6 ]
+
+4; //function that will accept an array, check the data type of each element. The function will delete string elements and will return a the new array
+function numbersOnly(arr) {
+  return arr.filter((arr) => typeof arr === "number");
+}
+
+console.log(numbersOnly(["text", 3, 7, "github", 13, "dev"]));
+// result [ 3, 7, 13 ]
