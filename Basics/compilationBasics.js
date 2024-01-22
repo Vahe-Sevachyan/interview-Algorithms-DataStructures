@@ -35,3 +35,12 @@ function numbersOnly(arr) {
 
 console.log(numbersOnly(["text", 3, 7, "github", 13, "dev"]));
 // result [ 3, 7, 13 ]
+
+5; //Return how many words was given
+
+function countWords(str) {
+  return str.split(" ").length;
+}
+
+countWords("hello from kbpsystem!");
+//result 3
