@@ -44,3 +44,11 @@ function countWords(str) {
 
 countWords("hello from kbpsystem!");
 //result 3
+
+6; // function that counts the number of words in a sentence.
+
+function countWords(sentence) {
+  const words = sentence.split(" ");
+  return words.length;
+}
+console.log(countWords(["Sentence", "Hello", "Bye"]));
