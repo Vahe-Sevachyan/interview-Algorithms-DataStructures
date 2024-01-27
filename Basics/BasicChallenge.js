@@ -15,3 +15,10 @@ function swapValues(a, b) {
   [a, b] = [b, a];
   return { a, b };
 }
+
+//Write a function that removes spaces from a given string.
+
+function removeSpaces(str) {
+  return str.replace(/\s/g, "");
+}
+removeSpaces("He llo Wo rld");
