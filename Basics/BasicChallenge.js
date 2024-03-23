@@ -46,3 +46,14 @@ function alphabet_order(str) {
 }
 // Log the result of calling alphabet_order with the input string "webmaster" to the console
 console.log(alphabet_order("JavaScriptMaster"));
+
+// Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word to uppercase.
+function uppercase(str) {
+  let arrayOne = str.split(" ");
+  let newArray = [];
+  arrayOne.forEach((arr) => {
+    newArray.push(arr.charAt(0).toUpperCase() + arr.slice(1));
+  });
+  return newArray.join(" ");
+}
+uppercase("the quick brown cat");
