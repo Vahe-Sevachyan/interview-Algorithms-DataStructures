@@ -1,5 +1,5 @@
 // Define a function named find_longest_word that takes a string parameter (str)
-function find_longest_word(str) {
+function findLongestWord(str) {
   // Use a regular expression to match words in the input string and store them in an array (array1)
   let array1 = str.match(/\w[a-z]{0,}/gi);
 
@@ -20,4 +20,4 @@ function find_longest_word(str) {
 }
 
 // Log the result of calling find_longest_word with the input string 'Web Development Tutorial' to the console
-console.log(find_longest_word("Web Development Tutorial"));
+console.log(findLongestWord("Web Development Tutorial"));
