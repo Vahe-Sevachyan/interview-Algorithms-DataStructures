@@ -7,7 +7,7 @@ let m = 0;
 let item;
 
 // Iterate through the array to find the most frequent item
-for (let i = 0;; i < arr1.length; i++) {
+for (let i = 0; i < arr1.length; i++) {
   // Nested loop to compare the current item with others in the array
   for (let j = i; j < arr1.length; j++) {
     // Check if the current item matches with another item in the array
